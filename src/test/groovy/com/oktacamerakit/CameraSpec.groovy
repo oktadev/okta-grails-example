@@ -1,10 +1,10 @@
-package oktacamerakit
+package com.oktacamerakit
 
-import grails.testing.web.controllers.ControllerUnitTest
+import grails.testing.gorm.DomainUnitTest
 import spock.lang.Ignore
 import spock.lang.Specification
 
-class HomeControllerSpec extends Specification implements ControllerUnitTest<HomeController> {
+class CameraSpec extends Specification implements DomainUnitTest<Camera> {
 
     def setup() {
     }

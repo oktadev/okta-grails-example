@@ -6,7 +6,10 @@ This example creates a basic camera inventory application with Grails and adds a
 
 Please read [Add Authentication to Your Vanilla JavaScript App in 20 Minutes]() to see how this app was created.
 
-**Prerequisites:** [Grails](http://grails.org/index.html).
+**Prerequisites:** 
+
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [Grails](http://grails.org/index.html)
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage, and secure users and roles in any application.
 

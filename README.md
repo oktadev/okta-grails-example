@@ -1,10 +1,9 @@
 # A Basic Grails App with Authentication
 
 This example creates a basic camera inventory application with Grails and adds authentication with Okta. See the corresponding blog posts for more info:
-* [Part 1](https://developer.okta.com/blog/2018/04/19/okta-with-grails) - creates initial application and adds OAuth 2.0support
-* [Part 2](https://developer.okta.com/blog/2018/06/04/okta-with-grails-part2) - adds additional endpoints and secures them with annotations
 
-Please read [Add Authentication to Your Vanilla JavaScript App in 20 Minutes]() to see how this app was created.
+* [Build Server Side Authentication in Grails with OAuth 2.0 and Okta](https://developer.okta.com/blog/2018/04/19/okta-with-grails) - creates initial application and adds OAuth 2.0 support
+* [Build a Basic CRUD Application with Grails and Okta](https://developer.okta.com/blog/2018/06/04/okta-with-grails-part2) - adds additional endpoints and secures them with annotations
 
 **Prerequisites:** 
 
@@ -27,10 +26,10 @@ git clone https://github.com/oktadeveloper/okta-grails-example.git
 cd okta-grails-example
 ```
 
-This will get a copy of the project installed locally. To build the application simply run:
+This will get a copy of the project installed locally. You can run the application with:
  
 ```bash
-./gradlew build
+grails run-app
 ```
 
 ### Setup Okta
